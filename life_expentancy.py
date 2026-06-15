@@ -5,7 +5,7 @@
 filename = "life-expectancy.csv"
 
 file = open(filename, "r", encoding="utf-8")
-# with open("life-expectancy.csv", "r", encoding="utf-8") as file
+# with open("life-expectancy.csv", "r", encoding="utf-8") as file:
 next(file) 
 
 overall_min_le = None
